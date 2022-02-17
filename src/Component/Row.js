@@ -19,7 +19,7 @@ function Row({ title, fetchUrl, isGame }) {
   return (
     <div className="row">
       <h2>{title}</h2>
-      <div className="row__images">
+      <div className={`row__images ${isGame && "row__imagesGame"}`}>
         {characters.map((character) => (
           <img
             key={character.id}
