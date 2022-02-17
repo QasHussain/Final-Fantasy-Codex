@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Final Fantasy Codex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### By Qasim Hussain
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Final Fantasy Codex is an online, fully responsive interactive encyclopedia of every character in the Final Fantasy series. Build in React and utlizing the [Moogle API](https://www.moogleapi.com/), this front-end application allows you to browse through every character in the series, learning their backstory, age, first appearence and much more. The user can also use the search feature to browse for specific characters by name, gender, race or game of origin. A long time fan of the series, this project was degined and created for my front-end development portfolio.
 
-### `npm start`
+## Planning and Preperation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The inial preparation for this applicaion involved created a flowchart and moodboard in Figma. This gave me a good idea what what kind of funcionality I would need as well some visual reference for the overall look of the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Flowchart/Moodboard](\Images\Pre-Production Images\Final Fantasy Codex Moodboard and Flowchart.jpg)
 
-### `npm test`
+The next step was to create a bunch of transparent PNG assets that I could use in my applicaion, as I wanted to randomly generate various Final Fnatasy cahracters as a background for the application on every refresh. Coming from an illustration and artwork background, I spend some time painting out the backgrounds on various official character posters to give me an asset sheet that would give me plenty to work with.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Asset Sheet](Images\Pre-Production Images\FF Transparent Asset Sheet.png)
 
-### `npm run build`
+I then went into Figma and created a series of mock designs so I could figure out the general look, flow and fuctionality of the applicaion before I began coding. I created a mock up of the landing page and the character description page for Desktop, Ipad and Iphone. This gave me a good idea what I was aiming for when building the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Desktop Mock Homepage Design](Images\Pre-Production Images\Desktop Mock Homepage.jpg)
+![Desktop Mock Charpage Design](Images\Pre-Production Images\Desktop Mock Homepage Character Screen.jpg)
+![Ipad Pro Mock Homepage Design](Images\Pre-Production Images\iPad Pro Mock HomePage.jpg)
+![Iphone Mock Homepage Design](Images\Pre-Production Images\iPhone 13 Mock HomePage.jpg)
+![Iphone Mock Charpage Design](Images\Pre-Production Images\iPhone 13 Mock Character Screen.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*React
+*Javascript
+\*scss
 
-### `npm run eject`
+## Final Application Screenshots:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+TBC
