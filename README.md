@@ -28,19 +28,20 @@ I then went into Figma and created a series of mock designs so I could figure ou
 
 
 
-**Desktop Mock Homepage
+**Desktop Mock Homepage**
 ![Desktop Mock Homepage](https://user-images.githubusercontent.com/98174866/154470590-5995dc33-4a05-41fc-916e-7bf74370e0f1.jpg)
 
 
-**Desktop Mock Homepage Character Screen
+**Desktop Mock Homepage Character Screen**
 ![Desktop Mock Homepage Character Screen](https://user-images.githubusercontent.com/98174866/154470560-b1407300-0a32-4823-bbdb-79bc5e4ceb7a.jpg)
 
 
-**iPad Pro Mock HomePage
+**iPad Pro Mock HomePage**
 ![iPad Pro Mock HomePage](https://user-images.githubusercontent.com/98174866/154470597-0cfbdec3-cf79-4a89-a6f9-83dd639e6f2f.jpg)
 
 
-**iPhone 13 Mock HomePage & Character Screen
+**iPhone 13 Mock HomePage & Character Screen**
+
 ![iPhone 13 Mock HomePage](https://user-images.githubusercontent.com/98174866/154470616-b179b71c-c5e6-4ab2-8098-390096673741.jpg)![iPhone 13 Mock Character Screen](https://user-images.githubusercontent.com/98174866/154470627-6f5f360b-bf14-418c-9ec7-7c2f9444faa1.jpg)
 
 ## Technologies Used:
