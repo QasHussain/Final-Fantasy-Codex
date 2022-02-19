@@ -1,28 +1,117 @@
+.row {
+  height: 22rem;
+  background-size: 200rem 19rem;
+  background-image: url("https://i.imgur.com/dAvHQR9.png");
+  background-position: 150rem -0.5rem;
+  background-repeat: repeat-x;
+  color: black;
+}
+
 .row__images {
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 2rem;
+  background: linear-gradient(
+    to top,
+    transparent 2%,
+    white 8%,
+    white 94%,
+    transparent 97%
+  );
+  filter: drop-shadow(0 0 4rem white);
+}
 
-  &::-webkit-scrollbar {
-    display: none;
+.row__images::-webkit-scrollbar {
+  display: none;
+}
+
+.row__imagesSmall {
+  background: linear-gradient(
+    to top,
+    transparent 1%,
+    white 5%,
+    white 94%,
+    transparent 97%
+  );
+  filter: drop-shadow(0 2rem 4rem white);
+}
+
+.row__images2 {
+  opacity: 92%;
+  object-fit: contain;
+  width: 100%;
+  max-height: 25rem;
+  margin-right: 18rem;
+  background-color: white;
+  transition: transform 300ms;
+
+  &:hover {
+    transform: scale(1.08);
+    opacity: 100%;
+    cursor: pointer;
   }
 }
 
 .row__image {
-  object-fit: contain;
-  width: 100%;
-  max-height: 20rem;
-  margin-right: 2rem;
-  transition: transform 450ms;
-
-  &:hover {
-    transform: scale(1.08);
-  }
+  height: 25rem;
+  border-radius: 3vh;
+}
+.row__imageSmall {
+  height: 14rem;
 }
 
-.row__imageGame {
-  object-fit: contain;
-  max-width: 20rem;
-  max-height: 10rem;
+.row__text {
+  position: absolute;
+  width: 15rem;
+  font-size: 1.3rem;
+  // font-weight: bold;
+  color: rgba(2, 21, 46, 0.8);
+  z-index: 999;
+}
+
+.row__textName {
+  position: absolute;
+  top: -1.8rem;
+  bottom: 0;
+  right: 0;
+  left: 12rem;
+  height: 1.5rem;
+  width: 15rem;
+  background-image: radial-gradient(rgba(107, 162, 226, 0.9), transparent 80%);
+  background-position: 0 200px;
+  filter: drop-shadow(2rem 0.8rem 0.5rem rgba(107, 162, 226, 0.9));
+  border-radius: 2.5vh;
+}
+
+.row__textJob {
+  position: relative;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  left: 13rem;
+  height: 1.5rem;
+  background-image: radial-gradient(rgba(107, 162, 226, 0.9), transparent 80%);
+  background-position: 0 200px;
+  filter: drop-shadow(2rem 0.8rem 0.5rem rgba(107, 162, 226, 0.9));
+  border-radius: 2.5vh;
+}
+
+.row__textRace {
+  position: relative;
+  top: -0.9rem;
+  bottom: 0;
+  right: 0;
+  left: 14rem;
+  height: 1.5rem;
+  background-image: radial-gradient(rgba(107, 162, 226, 0.9), transparent 80%);
+  background-position: 0 200px;
+  filter: drop-shadow(2rem 0.8rem 0.5rem rgba(107, 162, 226, 0.9));
+  border-radius: 2.5vh;
+}
+
+.row__descriptionBox {
+  height: 100px;
+  background-color: black;
+  width: 100%;
 }
