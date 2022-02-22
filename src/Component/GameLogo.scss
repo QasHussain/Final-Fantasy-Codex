@@ -1,0 +1,29 @@
+.gameRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: linear-gradient(
+    to top,
+    transparent 2%,
+    white 8%,
+    white 94%,
+    transparent 97%
+  );
+  filter: drop-shadow(0 0 4rem white);
+  color: rgba(2, 21, 46, 0.8);
+  font-size: 1.2rem;
+  font-weight: lighter;
+
+  #{&}__image {
+    height: 8rem;
+    opacity: 80%;
+  }
+
+  #{&}__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

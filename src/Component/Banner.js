@@ -7,6 +7,7 @@ function Banner({
   setCharactersIII,
   setCharactersIV,
   setCharactersV,
+  setCharactersVI,
   setCharactersVII,
   setCharactersVIII,
   setCharactersIX,
@@ -32,6 +33,9 @@ function Banner({
         </button>
         <button className="banner__button" onClick={setCharactersV}>
           V
+        </button>
+        <button className="banner__button" onClick={setCharactersVI}>
+          VI
         </button>
         <button className="banner__button" onClick={setCharactersVII}>
           VII
