@@ -4,7 +4,9 @@
 
 ## Description
 
-Final Fantasy Codex is an online, fully responsive interactive encyclopedia of every character in the Final Fantasy series. Built in React and utlizing the [Moogle API](https://www.moogleapi.com/), this front-end application allows you to browse through every character in the series, learning their backstory, age, first appearence and much more. The user can also use the search feature to browse for specific characters by name, gender, race or game of origin. A long time fan of the series, this project was degined and created for my front-end development portfolio.
+Final Fantasy Codex is an online, fully responsive interactive encyclopedia of every character in the mainline Final Fantasy series. Built in React and utlizing the [Moogle API](https://www.moogleapi.com/), this front-end application allows you to browse through every character in the series, learning their backstory, age, first appearence and much more. The user can also use the search feature to browse for specific characters by name.
+
+This project was degined and built for my front-end development portfolio. As a long time fan of the Final Fantasy series, I wanted to create something truly unique and personal to me.
 
 ## Planning and Preperation
 
