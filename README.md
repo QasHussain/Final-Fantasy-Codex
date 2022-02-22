@@ -25,7 +25,7 @@ The next step was to create a series of transparent PNG assets that I could use 
 
 
 
-I then went into Figma and created a series of mock designs so I could figure out the general look, flow and fuctionality of the applicaion before I began coding. I created a mock up of the landing page and the character description page for desktop, Ipad and Iphone dimentions. While i knew I wouldnt be able to re-create this exactly (the images from the API would not be tranparent PNG's like I used here) this process gave me a rough but essential visual reference as I was building and styling the application. 
+I then went into Figma and created a series of mock designs so I could figure out the general look, flow and fuctionality of the applicaion before I began coding. I created a mock up of the landing page and the character description page for desktop, Ipad and Iphone dimentions. While I knew these design were purely mock ups, this process gave me a rough but essential visual reference as I was building and styling the application. 
 
 
 
