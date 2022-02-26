@@ -208,3 +208,448 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .infoPage__stat {
+    font-size: 1.1rem;
+    margin-left: 1.2rem;
+    padding-top: 0.6rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  .infoPage__stat {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+    padding-top: 0.7rem;
+  }
+}
+
+@media (max-width: 1123px) {
+  .infoPage__stat {
+    font-size: 0.8rem;
+    margin-left: 1.2rem;
+    padding-top: 0.9rem;
+  }
+}
+@media (max-width: 1025px) {
+  .infoPage__stat {
+    font-size: 0.8rem;
+    margin-left: 1.2rem;
+    padding-top: 0.9rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .infoPage {
+    #{&}__stats {
+      height: 0;
+      display: contents;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    #{&}__description {
+      font-size: 1.2rem;
+      max-height: 14rem;
+      overflow-y: scroll;
+      padding-top: 3.5rem;
+    }
+
+    #{&}__portrait {
+      max-height: 20rem;
+      min-height: 12rem;
+      max-width: 25rem;
+    }
+  }
+
+  .infoPage__stat {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    letter-spacing: 2px;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.9),
+      transparent 80%
+    );
+
+    filter: drop-shadow(2rem 0.8rem 0.5rem rgba(107, 162, 226, 0.9));
+
+    border: solid 1px white;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    position: relative;
+    top: 1rem;
+    height: 18rem;
+  }
+  .row__title {
+    font-size: 1rem;
+  }
+
+  .row__images {
+    height: 9rem;
+  }
+
+  .row__image {
+    margin-top: 0.3rem;
+    min-height: 7rem;
+    max-height: 9rem;
+    border-radius: 3vh;
+  }
+
+  .row__textName {
+    position: absolute;
+
+    left: 6rem;
+    height: 1.5rem;
+    width: 15rem;
+  }
+
+  .row__textJob {
+    position: relative;
+
+    left: 7rem;
+    height: 1.5rem;
+  }
+
+  .row__textRace {
+    position: relative;
+
+    left: 8rem;
+    height: 1.5rem;
+  }
+
+  .infoPage {
+    #{&}__content {
+      display: block;
+      padding-bottom: 2rem;
+    }
+
+    #{&}__title {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 0.8rem;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    #{&}__stat {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0.15rem;
+      height: 2rem;
+      font-size: 0.9rem;
+      padding-bottom: 0.1rem;
+    }
+
+    #{&}__portrait {
+      position: relative;
+      right: 2rem;
+      max-height: 18rem;
+      min-height: 10rem;
+      max-width: 18rem;
+    }
+
+    #{&}__description {
+      padding-top: 1rem;
+      font-size: 1.2rem;
+      max-height: 16rem;
+      font-style: bold;
+      overflow-y: scroll;
+    }
+  }
+
+  .infoPage__stat {
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .row {
+    height: 17rem;
+    position: relative;
+    bottom: -3rem;
+  }
+  .row__title {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    position: relative;
+    bottom: 0.5rem;
+  }
+
+  .row__images {
+    position: relative;
+    top: 1rem;
+    height: 5rem;
+  }
+
+  .row__images2 {
+    margin-right: 11.8rem;
+  }
+
+  .row__image {
+    min-height: 5.5rem;
+    max-height: 5rem;
+    border-radius: 3vh;
+  }
+
+  .row__text {
+    position: absolute;
+    width: 15rem;
+    height: 0;
+    font-size: 0.74rem;
+    color: rgba(2, 21, 46, 0.8);
+    font-weight: bold;
+  }
+
+  .row__textName {
+    position: absolute;
+    left: 2.5rem;
+    height: 1rem;
+    width: 11rem;
+  }
+
+  .row__textJob {
+    position: relative;
+    top: -0.47rem;
+    left: 3.5rem;
+    height: 1rem;
+    width: 11rem;
+  }
+
+  .row__textRace {
+    position: relative;
+    left: 4.5rem;
+    width: 11rem;
+    height: 1rem;
+  }
+
+  .infoPage {
+    #{&}__content {
+      display: block;
+      padding-bottom: 2rem;
+    }
+
+    #{&}__title {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 0.8rem;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    #{&}__stat {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0.15rem;
+      height: 2rem;
+      font-size: 0.9rem;
+      padding-bottom: 0.1rem;
+    }
+
+    #{&}__portrait {
+      position: relative;
+      right: 2rem;
+      max-height: 18rem;
+      min-height: 10rem;
+      max-width: 18rem;
+    }
+
+    #{&}__description {
+      padding-top: 1rem;
+      font-size: 1.2rem;
+      max-height: 16rem;
+      font-style: bold;
+      overflow-y: scroll;
+    }
+  }
+
+  .infoPage__stat {
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .row {
+    height: 16rem;
+    position: relative;
+    bottom: -3rem;
+  }
+  .row__title {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    position: relative;
+    bottom: 0.5rem;
+  }
+
+  .row__images {
+    position: relative;
+    top: 1rem;
+    height: 5rem;
+  }
+
+  .row__images2 {
+    margin-right: 11.8rem;
+  }
+
+  .row__image {
+    min-height: 5.5rem;
+    max-height: 5rem;
+    border-radius: 3vh;
+  }
+
+  .row__text {
+    position: absolute;
+    width: 15rem;
+    height: 0;
+    font-size: 0.74rem;
+    color: rgba(2, 21, 46, 0.8);
+    font-weight: bold;
+  }
+
+  .row__textName {
+    position: absolute;
+    left: 2.5rem;
+    height: 1rem;
+    width: 11rem;
+  }
+
+  .row__textJob {
+    position: relative;
+    top: -0.47rem;
+    left: 3.5rem;
+    height: 1rem;
+    width: 11rem;
+  }
+
+  .row__textRace {
+    position: relative;
+    left: 4.5rem;
+    width: 11rem;
+    height: 1rem;
+  }
+
+  .infoPage {
+    #{&}__content {
+      display: block;
+      padding-bottom: 2rem;
+    }
+
+    #{&}__title {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 0.8rem;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    #{&}__stat {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0.15rem;
+      height: 2rem;
+      font-size: 0.9rem;
+      padding-bottom: 0.1rem;
+    }
+
+    #{&}__portrait {
+      position: relative;
+      right: 2rem;
+      max-height: 18rem;
+      min-height: 10rem;
+      max-width: 18rem;
+    }
+
+    #{&}__description {
+      position: relative;
+
+      padding-top: 1rem;
+      font-size: 1.2rem;
+      max-height: 16rem;
+      font-style: bold;
+      overflow-y: scroll;
+    }
+  }
+
+  .infoPage__stat {
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .row__image {
+    min-height: 5.5rem;
+    max-height: 5rem;
+    border-radius: 3vh;
+  }
+
+  .infoPage {
+    #{&}__title {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 0.8rem;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    #{&}__stat {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0.15rem;
+      height: 1.5rem;
+      font-size: 0.6rem;
+      padding-bottom: 0.1rem;
+    }
+
+    #{&}__portrait {
+      position: relative;
+
+      max-height: 11rem;
+      min-height: 7rem;
+    }
+
+    #{&}__description {
+      position: relative;
+      left: 0rem;
+      padding-top: 1rem;
+      font-size: 1rem;
+      max-height: 16rem;
+      max-width: 17rem;
+      font-style: bold;
+      overflow-y: scroll;
+    }
+  }
+}

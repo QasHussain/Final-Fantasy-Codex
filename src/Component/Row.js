@@ -1,4 +1,4 @@
-import React, { Children, useEffect, useState } from "react";
+import React, { Children, useEffect, useRef, useState } from "react";
 import axios from "../store/axios";
 import "./Row.scss";
 
@@ -6,6 +6,7 @@ function Row({ title, fetchUrl }) {
   const [characters, setCharacters] = useState([]);
   const [info, setInfo] = useState([]);
   const [active, setActive] = useState("");
+  const contentRef = useRef();
 
   useEffect(() => {
     let isCancelled = false;
@@ -29,8 +30,6 @@ function Row({ title, fetchUrl }) {
     };
   }, [fetchUrl]);
 
-  console.log(characters);
-
   const getCharacterInfo = (character) => {
     setActive("true");
 
@@ -47,7 +46,7 @@ function Row({ title, fetchUrl }) {
     };
     setInfo(characterInfo);
     setTimeout(() => {
-      window.scrollBy(0, 9000);
+      contentRef.current.scrollIntoView();
     }, 120);
   };
   console.log(info);
@@ -92,7 +91,7 @@ function Row({ title, fetchUrl }) {
       </div>
 
       {active === "true" && (
-        <div className="infoPage">
+        <div className="infoPage" ref={contentRef}>
           <h1 className="infoPage__title">{info.name.toUpperCase()}</h1>
           <section className="infoPage__stats">
             <h2 className="infoPage__stat">AGE : {info.age.toUpperCase()}</h2>

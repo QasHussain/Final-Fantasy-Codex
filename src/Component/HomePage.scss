@@ -1,0 +1,67 @@
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble {
+  height: 20rem;
+  width: 40%;
+  min-width: 200px;
+  background: rgb(255, 255, 255);
+  color: rgba(2, 21, 46, 0.9);
+  display: block;
+  position: relative;
+  left: 1rem;
+  bottom: 5rem;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-family: FinalFantasy-aa4m;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-align: center;
+  filter: drop-shadow(0 0 3rem white);
+}
+
+.pointer {
+  height: 40px;
+  width: 40px;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  transform: rotate(45deg);
+  border-radius: 0 0 12px 0;
+  margin-top: -22px;
+  position: relative;
+  right: 23.5rem;
+  bottom: 5rem;
+}
+
+.bubble p {
+  max-width: 40rem;
+  position: relative;
+  top: 0.5rem;
+  left: 3.5rem;
+}
+
+.moogle {
+  width: 20rem;
+  position: relative;
+  left: 19rem;
+  filter: drop-shadow(0 0 3rem white);
+  animation-duration: 0.6s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 1rem;
+  }
+
+  to {
+    margin-right: 1rem;
+  }
+}

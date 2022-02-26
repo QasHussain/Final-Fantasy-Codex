@@ -49,14 +49,12 @@ function Banner({
         <button className="banner__button" onClick={setCharactersX}>
           X
         </button>
-
         <button className="banner__button" onClick={setCharactersXII}>
           XII
         </button>
         <button className="banner__button" onClick={setCharactersXIII}>
           XIII
         </button>
-
         <button className="banner__button" onClick={setCharactersXV}>
           XV
         </button>

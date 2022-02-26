@@ -17,6 +17,7 @@ const requests = {
   fetch12Characters: "/v1/characters/search?origin=12",
   fetch13Characters: "/v1/characters/search?origin=13",
   fetch15Characters: "/v1/characters/search?origin=Final%20Fantasy%20XV",
+  fetchCharacterSearch: "/v1/characters/search?name=",
 };
 
 export default requests;
