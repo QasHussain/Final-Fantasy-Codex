@@ -1,4 +1,4 @@
-import React, { Children, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import axios from "../store/axios";
 import "./Row.scss";
 import "./SearchBar.scss";
@@ -87,7 +87,7 @@ function SearchBar({ fetchUrl, isSearchBar }) {
             onChange={handleFilter}
           />
         </div>
-        {filteredData.length != 0 && (
+        {filteredData.length !== 0 && (
           <div className="row__images">
             {filteredData.slice(0, 20).map((character) => {
               return (

@@ -65,3 +65,1061 @@
     margin-right: 1rem;
   }
 }
+
+@media (max-width: 2560px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+  }
+
+  .bubble {
+    height: 20rem;
+    width: 40%;
+    min-width: 200px;
+    display: block;
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 59rem;
+    font-size: 1.5rem;
+  }
+
+  .moogle {
+    position: relative;
+    left: 15rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+  }
+
+  .bubble {
+    height: 22rem;
+    width: 40%;
+    min-width: 200px;
+    display: block;
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+  }
+
+  .pointer {
+    position: relative;
+    right: 23rem;
+    bottom: 5rem;
+  }
+
+  .bubble p {
+    max-width: 42rem;
+    font-size: 1.4rem;
+  }
+
+  .moogle {
+    position: relative;
+    left: 15rem;
+  }
+}
+
+@media (max-width: 1632px) {
+  .bubble p {
+    max-width: 35rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+  }
+
+  .bubble {
+    height: 20rem;
+    width: 40%;
+    min-width: 200px;
+    display: block;
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+  }
+
+  .pointer {
+    position: relative;
+    right: 17.5rem;
+    bottom: 5rem;
+  }
+
+  .bubble p {
+    max-width: 30rem;
+    position: relative;
+    top: -0.1rem;
+    font-size: 1.2rem;
+  }
+
+  .moogle {
+    position: relative;
+    left: 15rem;
+  }
+}
+
+@media (max-width: 1403px) {
+  .pointer {
+    display: none;
+  }
+}
+
+@media (max-width: 1439px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+  }
+
+  .bubble {
+    height: 20rem;
+    width: 40%;
+    min-width: 200px;
+    display: block;
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+  }
+
+  .pointer {
+    position: relative;
+    right: 17.5rem;
+    bottom: 5rem;
+  }
+
+  .bubble p {
+    max-width: 30rem;
+  }
+
+  .moogle {
+    position: relative;
+    left: 15rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .bubble p {
+    max-width: 30rem;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+  }
+
+  .bubble {
+    height: 19rem;
+    width: 40%;
+    min-width: 200px;
+
+    position: relative;
+    left: 3rem;
+    bottom: 1rem;
+
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .pointer {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    right: 12rem;
+    bottom: 8rem;
+  }
+
+  .bubble p {
+    max-width: 20rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.5rem;
+    left: 3.5rem;
+  }
+
+  .moogle {
+    width: 15rem;
+    position: relative;
+    left: 11rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+  }
+
+  .bubble {
+    height: 19rem;
+    width: 40%;
+    min-width: 200px;
+
+    position: relative;
+    left: 3rem;
+    bottom: 1rem;
+
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .pointer {
+    height: 40px;
+    width: 40px;
+
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    right: 12rem;
+    bottom: 8rem;
+  }
+
+  .bubble p {
+    max-width: 20rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.5rem;
+    left: 3.5rem;
+  }
+
+  .moogle {
+    width: 15rem;
+    position: relative;
+    left: 11rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    height: 25rem;
+    top: 14rem;
+  }
+
+  .bubble {
+    height: 14rem;
+    width: 50%;
+    min-width: 200px;
+    position: relative;
+    left: 3rem;
+    bottom: 17rem;
+
+    margin-top: 30px;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .pointer {
+    display: none;
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    transform: rotate(135deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    right: 1rem;
+    bottom: -0.1rem;
+  }
+
+  .bubble p {
+    max-width: 30rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 12rem;
+    position: relative;
+    left: 6rem;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .bubble p {
+    max-width: 26.5rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: -0.5rem;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 16rem;
+    height: 48rem;
+  }
+  .bubble p {
+    max-width: 24.5rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: -0.5rem;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 16rem;
+    height: 32rem;
+  }
+
+  .bubble {
+    height: 15rem;
+    width: 55%;
+    min-width: 200px;
+    position: relative;
+    left: 3rem;
+    bottom: 19rem;
+
+    margin-top: 30px;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .pointer {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    right: 12.8rem;
+    bottom: 3rem;
+  }
+
+  .bubble p {
+    max-width: 25rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 11rem;
+    position: relative;
+    left: 5rem;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 16rem;
+    height: 32rem;
+  }
+
+  .bubble {
+    height: 15rem;
+    width: 55%;
+    min-width: 200px;
+    position: relative;
+    left: 3rem;
+    bottom: 19rem;
+
+    margin-top: 30px;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .pointer {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    right: 12.8rem;
+    bottom: 3rem;
+  }
+
+  .bubble p {
+    max-width: 25rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 11rem;
+    position: relative;
+    left: 5rem;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 16rem;
+    height: 32rem;
+  }
+
+  .bubble {
+    height: 15rem;
+    width: 55%;
+    min-width: 200px;
+    position: relative;
+    left: 3rem;
+    bottom: 19rem;
+
+    margin-top: 30px;
+    font-size: 0.9rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 25rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 11rem;
+    position: relative;
+    left: 5rem;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 43rem;
+  }
+
+  .bubble {
+    height: 15rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 23rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 31rem;
+    font-size: 1.02rem;
+    position: relative;
+    top: -0.5rem;
+    left: 1.9rem;
+  }
+
+  .moogle {
+    width: 7rem;
+    position: relative;
+    left: 19rem;
+    bottom: 36rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .bubble p {
+    max-width: 29rem;
+    font-size: 1rem;
+    position: relative;
+    top: -0.5rem;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 43rem;
+  }
+
+  .bubble {
+    height: 17rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 22rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 26rem;
+    font-size: 1rem;
+    position: relative;
+    top: 1rem;
+    left: 1.5rem;
+  }
+
+  .moogle {
+    width: 7rem;
+    position: relative;
+    left: 16rem;
+    bottom: 36rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 43rem;
+  }
+
+  .bubble {
+    height: 17rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 22rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 24rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0rem;
+    left: 0.8rem;
+  }
+
+  .moogle {
+    width: 7rem;
+    position: relative;
+    left: 14rem;
+    bottom: 36rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 43rem;
+  }
+
+  .bubble {
+    height: 17rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 22rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 23rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0rem;
+    left: 0.2rem;
+  }
+
+  .moogle {
+    width: 7rem;
+    position: relative;
+    left: 14rem;
+    bottom: 36rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 35rem;
+  }
+
+  .bubble {
+    height: 19rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 19rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 19rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 5rem;
+    position: relative;
+    left: 12rem;
+    bottom: 32.5rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 35rem;
+  }
+}
+@media (max-width: 424px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 35rem;
+  }
+
+  .bubble {
+    height: 19rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 19rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .moogle {
+    width: 5rem;
+    position: relative;
+    left: 12rem;
+    bottom: 32.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 43rem;
+  }
+
+  .bubble {
+    height: 19rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 19rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 18rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 6rem;
+    position: relative;
+    left: 12rem;
+    bottom: 33.5rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .bubble p {
+    max-width: 22rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.2rem;
+    left: 0.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 16rem;
+    height: 43rem;
+  }
+
+  .bubble {
+    height: 22rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 18rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 16rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 6rem;
+    position: relative;
+    left: 11rem;
+    bottom: 33.5rem;
+  }
+}
+
+@media (max-width: 393px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 39rem;
+  }
+
+  .bubble {
+    height: 20rem;
+    width: 90%;
+    position: relative;
+    left: -1rem;
+    bottom: 19rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 15rem;
+    font-size: 0.91rem;
+    position: relative;
+    top: 0.2rem;
+    left: 1.5rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 39rem;
+  }
+
+  .bubble {
+    height: 20rem;
+    width: 90%;
+    position: relative;
+    left: -1rem;
+    bottom: 19rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 15rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0.2rem;
+    left: 1.5rem;
+  }
+
+  .moogle {
+    left: 11rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 39rem;
+  }
+
+  .bubble {
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    bottom: 19rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 15rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 6rem;
+    position: relative;
+    left: 9.5rem;
+    bottom: 34rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 39rem;
+  }
+
+  .bubble {
+    height: 22rem;
+    width: 100%;
+    position: relative;
+    left: -0.9rem;
+    bottom: 18rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 13rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0rem;
+    left: 0.4rem;
+  }
+
+  .moogle {
+    width: 5.5rem;
+
+    position: relative;
+    left: 8.5rem;
+    bottom: 34rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .bubble {
+    height: 22rem;
+    width: 100%;
+    position: relative;
+    left: -0.9rem;
+    bottom: 18rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .bubble p {
+    max-width: 12rem;
+    font-size: 0.85rem;
+    position: relative;
+    top: 0rem;
+    left: 0.4rem;
+  }
+
+  .moogle {
+    width: 5.5rem;
+
+    position: relative;
+    left: 8.5rem;
+    bottom: 34rem;
+  }
+}
+
+@media (min-height: 1024px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 15rem;
+    height: 42rem;
+  }
+}
+
+@media (min-height: 1024px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 15rem;
+    height: 48rem;
+  }
+}
+
+@media (min-height: 1368px) {
+  .homePage {
+    position: relative;
+    right: 2rem;
+    top: 20rem;
+    height: 58rem;
+  }
+
+  .bubble {
+    height: 30rem;
+    width: 50%;
+    position: relative;
+    left: 5rem;
+    bottom: 25rem;
+    font-size: 1rem;
+    font-family: FinalFantasy-aa4m;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  .pointer {
+    display: none;
+  }
+
+  .bubble p {
+    max-width: 26rem;
+    font-size: 1.55rem;
+    position: relative;
+    top: -0.5rem;
+    left: 1rem;
+  }
+
+  .moogle {
+    width: 8rem;
+
+    position: relative;
+    left: 8.5rem;
+    bottom: 34rem;
+  }
+}

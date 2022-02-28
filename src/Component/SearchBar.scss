@@ -52,6 +52,14 @@
   margin-bottom: 2.5rem;
 }
 
+@media (min-width: 2560px) {
+  .search input {
+    position: relative;
+    top: 2.2rem;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1440px) {
   .search input {
     padding-left: 19.5rem;
